@@ -1,0 +1,12 @@
+{
+  "Lot-12": {
+    "name": "Lot 12",
+    "size": "120 sqm",
+    "status": "AVAILABLE"
+  },
+  "Lot-13": {
+    "name": "Lot 13",
+    "size": "150 sqm",
+    "status": "SOLD"
+  }
+}
