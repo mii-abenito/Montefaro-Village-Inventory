@@ -6,31 +6,48 @@
 body {
   background-color: white;
 }
-
+	.title {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      margin-top: 50px;
+    }
+    .title h1 {
+      font-size: 26px;
+      margin: 0;
+    }
+    .title h2 {
+      font-size: 9px;
+      margin: 5px 0 0 0;
+      color: #555;
+    }
+    .title h3 {
+      font-size: 9px;
+      margin: 5px 0 0 0;
+      color: #555;
+    }
 
 .available { fill: #2ecc71 !important; }
 .sold      { fill: #e74c3c !important; }
 .reserved  { fill: #f1c40f !important; }
 
 /* Your other .stX classes go here */
-
-
+/* st1-RL */
 .st0 {
   fill: #3498db;
-  stroke: #2c3e50;
+  stroke: #dbd7d9;
   stroke-width: 2;
   transition: all 0.3s ease;
 }
 
 .st0:hover {
-  fill: #e74c3c;
-  stroke: #000;
+  fill: #089e00;
+  stroke: #089e00;
   cursor: pointer;
 }
 
     .fil1 { fill:#9992229; }
     .fil0 { fill:#CCCCCC; }
-	.st0{fill:#A9A3A1;}
+	.st0{fill:#dbd7d9;}
 	.st1{fill:#628B3D;}
 	.st2{fill:#FECC89;}
 	.st3{fill:#FFFFFF;}
@@ -43,3 +60,4 @@ body {
 	.st10{font-family:'Arial-BoldMT';}
 	.st11{font-size:8px;}
 /* Add other .stX classes here */
+
