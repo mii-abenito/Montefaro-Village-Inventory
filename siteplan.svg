@@ -2,8 +2,11 @@
   <a onclick="showUnit('Lot-12')">
     <rect id="Lot-12" x="50" y="50" width="100" height="100" fill="#2ecc71"/>
   </a>
-  <a onclick="showUnit('Lot-13')">
-    <rect id="Lot-13" x="200" y="50" width="100" height="100" fill="#e74c3c"/>
+
+  <a onclick="showUnit('Lot-12')">
+    <rect id="Lot-12" x="50" y="50" width="100" height="100" fill="#2ecc71"/>
   </a>
 </svg>
+
+
 
