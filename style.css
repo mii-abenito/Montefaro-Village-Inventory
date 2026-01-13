@@ -9,13 +9,6 @@ body {
 }
 
 
-height="800"
-    style="shape-rendering:geometricPrecision;
-           text-rendering:geometricPrecision;
-           image-rendering:optimizeQuality;
-           fill-rule:evenodd;
-           clip-rule:evenodd">
-
 svg path {
   fill: #00394f;
   stroke: #eee;
