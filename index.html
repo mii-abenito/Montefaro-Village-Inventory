@@ -1,31 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Montefaro Village</title>
+	<meta charset="UTF-8">
+	<title>Montefaro Village</title>
 	<link rel="stylesheet" href="style.css">
-	<script src="script.js"></script>
 </head>
 <body>
+	<div class="title">
+		<h1>Montefaro Village</h1> 
+		<h2>Breigthon Land Inc.</h2>
+	</div>
+	
+	<div class="title" style="text-align:left;">
+		<h3>🟢 Available:	</h3>
+		<h3>🔴 Sold:		</h3>
+		<h3>🟡 Reserved:	</h3>
+	</div>
+
   <svg xmlns="http://www.w3.org/2000/svg"
-       xmlns:xlink="http://www.w3.org/1999/xlink"
-       viewBox="0 0 1000 1600"
-       width="500" height="800"
-       style="shape-rendering:geometricPrecision;
-              text-rendering:geometricPrecision;
-              image-rendering:optimizeQuality;
-              fill-rule:evenodd;
-              clip-rule:evenodd">
-  
-<polygon class="st0" 
-                 points="43.5,332.7 72.8,329.7 73.8,338.9 72,338.9 73.1,350.9 52.8,352.7 52.2,344 44.9,344.8" />
- 
-		
+       viewBox="0 0 1200 1600"
+       width="800" height="900"
+	   style="	display:block; margin:auto;
+				shape-rendering:geometricPrecision;
+				text-rendering:geometricPrecision;
+				image-rendering:optimizeQuality;
+				fill-rule:evenodd;
+				clip-rule:evenodd">
+	
+
+<script>
+  fetch('units.json')
+    .then(r => r.json())
+    .then(data => {
+      window.units = data;
+
+      for (const id in data) {
+        const unit = data[id];
+        const shape = document.getElementById(id);
+
+        if (shape) {
+          // Apply status class
+          const status = unit["Unit Status"].toLowerCase();
+          if (status === "available") shape.classList.add("available");
+          if (status === "sold") shape.classList.add("sold");
+          if (status === "reserved") shape.classList.add("reserved");
+
+          // Attach click
+          shape.addEventListener("click", () => showUnit(id));
+        }
+      }
+    });
+
+  function showUnit(id) 
+	{
+    const u = window.units[id];
+	if (!u) 
+		{ alert("No data found for " + id); 
+	return; 
+		} alert( 
+			`Unit: ${id} 
+			Floor area: ${u["Floor area"]} 
+			Lot area: ${u["Lot area"]} 
+			House Model: ${u["House Model"]} 
+			Amount: ${u["Amount"]} 
+			Status: ${u["Unit Status"]} 
+			HubSpot Link: ${u["HubSpot Link"]}`
+				); 
+	} 
+   </script>
+
+		<polygon id="MF40325"	polygon class="st0" points="43.5,332.7 72.8,329.7 73.8,338.9 72,338.9 73.1,350.9 52.8,352.7 52.2,344 44.9,344.8						"/>
+		<polygon id="MF40315"	polygon class="st0" points="80.7,691.7 77.6,662.5 86.9,661.5 86.9,663.2 98.8,662.1 100.7,682.4 92,683.1 92.8,690.4 					"/>
+		<polygon id="MF40314"	polygon class="st0" points="111.3,703.3 109.2,674 118.5,673.3 118.4,675 130.4,674.3 131.6,694.6 122.9,695 123.5,702.3 					"/>
+		<polygon id="MF40313"	polygon class="st0" points="141.1,701.2 138.9,671.8 148.2,671.1 148.2,672.9 160.1,672.1 161.3,692.5 152.7,692.9 153.2,700.2 			"/>
+		<polygon id="MF4031E"	polygon class="st0" points="23,130.3 52.3,127.3 53.3,136.6 51.5,136.6 52.6,148.5 32.3,150.3 31.6,141.6 24.4,142.4 						"/>
 
 
-		<polygon class="st0" points="80.7,691.7 77.6,662.5 86.9,661.5 86.9,663.2 98.8,662.1 100.7,682.4 92,683.1 92.8,690.4 					"/>
-		<polygon class="st0" points="111.3,703.3 109.2,674 118.5,673.3 118.4,675 130.4,674.3 131.6,694.6 122.9,695 123.5,702.3 					"/>
-		<polygon class="st0" points="141.1,701.2 138.9,671.8 148.2,671.1 148.2,672.9 160.1,672.1 161.3,692.5 152.7,692.9 153.2,700.2 			"/>
-		<polygon class="st0" points="23,130.3 52.3,127.3 53.3,136.6 51.5,136.6 52.6,148.5 32.3,150.3 31.6,141.6 24.4,142.4 						"/>
 		<polygon class="st0" points="26,159.5 55.2,156.5 56.2,165.7 54.5,165.7 55.5,177.7 35.3,179.5 34.6,170.8 27.3,171.6 						"/>
 		<polygon class="st0" points="32,217.2 61.3,214.2 62.3,223.4 60.5,223.4 61.6,235.4 41.3,237.2 40.6,228.5 33.3,229.3 						"/>
 		<polygon class="st0" points="28.9,188.2 58.2,185.2 59.2,194.4 57.4,194.4 58.5,206.4 38.2,208.2 37.6,199.5 30.3,200.3 					"/>
@@ -35,7 +85,7 @@
 			l476.4-27.4l-1.1-11.9l5.1-9.9l25.1-21.3l13.9-8.3l14.5-0.4l-3.5-45.1l-8.3,6.8l-17.8,2.5l-14.5,6.9l-44,39l-13.2,5.7L664,630.3
 			l-15.2-0.9l-10.4-2.9l-7.8-5.8l-1.9-1.9l-18.6-21.5l-6.7-10.4l-18.6-13.5l-20.6-8.4l-0.9-21.3l-20.2-234.2l-23.6,2l2.2,25.8
 			l-6.9,6.4l-264.1,20.6l-8.6-6.5l-4.3-70.5l-25.6,1.4l0.8,9.9l-6.6,8.9c0,0-87.1,7-87.8,6.6s-8-7.6-8-7.6l-0.9-9.9
-			c0,0-22.5,2.1-23.1,2.1L120.1,624.2z"/>
+			c0,0-22.5,2.1-23.1,2.1L120.1,624.2z																									"/>
 		<polygon class="st1" points="603,586.8 659.4,581.6 663.8,630.1 648.8,629.4 637.8,626.6 630.6,620.7 614.2,602.6 609.7,597.1 				"/>
 		<polygon class="st1" points="489.6,632 492.8,677.9 621,669.2 609.5,659.8 599,654.1 592.5,652.7 583.9,652.6 577.2,654.3 567.2,659.1 556.5,661.3 549,661.6 531.7,657.1 520.5,647.8 511.1,636.4 504.4,632.8 497.9,631.4 	"/>
 		<polygon class="st1" points="474.8,233.8 576.6,179.3 587.8,304.8 518.8,311.8 521.3,336.9 514.8,343.4 485,345.7 							"/>
@@ -496,7 +546,8 @@
 		<text transform="matrix(0.9964 -8.511000e-02 8.511000e-02 0.9964 1019.5913 580.4202)"><tspan x="0" y="0" class="st10 st11">MF4</tspan><tspan x="-0.9" y="8" class="st10 st11">0104</tspan></text>
 		<text transform="matrix(0.9964 -8.511000e-02 8.511000e-02 0.9964 1048.4247 577.5045)"><tspan x="0" y="0" class="st10 st11">MF4</tspan><tspan x="-0.9" y="8" class="st10 st11">0103</tspan></text>
 		<text transform="matrix(0.9964 -8.511000e-02 8.511000e-02 0.9964 1077.5913 565.7627)"><tspan x="0" y="0" class="st10 st11">MF4</tspan><tspan x="-0.9" y="8" class="st10 st11">0102</tspan></text>
-	</g></svg>
+	
+</g></svg>
 </switch>
 <i:pgf  id="adobe_illustrator_pgf">
 	<![CDATA[
@@ -14301,6 +14352,8 @@ nz8/ffXdd3zk53/THz39/vvPP+iRPj/98Ic//j9+h7/08hd++tO//6d/+Mnf/H9zk/Bw
 </i:pgf>
 </svg>
 </body> </html>
+
+
 
 
 
