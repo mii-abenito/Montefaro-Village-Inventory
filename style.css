@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: pink;
 }
 
 svg path {
@@ -41,7 +41,7 @@ svg path:hover {
 
             .fil1 { fill:#9992229; }
             .fil0 { fill:#CCCCCC; }
-			.st0{fill:pink}
+			.st0{fill:#A9A3A1;}
 			.st1{fill:#628B3D;}
 			.st2{fill:#FECC89;}
 			.st3{fill:#FFFFFF;}
