@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  position: center;
 }
 
 body {
@@ -9,12 +8,11 @@ body {
 }
 
 svg path {
-    fill: #00394f;
-    stroke: #eee;
-    stroke-width: 0.25;
-    transition: fill 0.4s;
-    cursor: pointer;
-	
+  fill: #00394f;
+  stroke: #eee;
+  stroke-width: 0.25;
+  transition: fill 0.4s;
+  cursor: pointer;
 }
 
 svg path:hover {
@@ -22,8 +20,10 @@ svg path:hover {
 }
 
 .available { fill: #2ecc71 !important; }
-.sold { fill: #e74c3c !important; }
-.reserved { fill: #f1c40f !important; }
+.sold      { fill: #e74c3c !important; }
+.reserved  { fill: #f1c40f !important; }
+
+/* Your other .stX classes go here */
 
 
 .st0 {
