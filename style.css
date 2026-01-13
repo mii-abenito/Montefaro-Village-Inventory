@@ -39,18 +39,18 @@ svg path:hover {
   cursor: pointer;
 }
 
-            .fil1 { fill:#9992229; }
-            .fil0 { fill:#CCCCCC; }
-			.st0{fill:#A9A3A1;}
-			.st1{fill:#628B3D;}
-			.st2{fill:#FECC89;}
-			.st3{fill:#FFFFFF;}
-			.st4{clip-path:url(#SVGID_2_);}
-			.st5{fill:none;stroke:#010101;stroke-linecap:round;stroke-miterlimit:10;}
-			.st6{fill:none;stroke:#000000;stroke-miterlimit:10;}
-			.st7{fill:none;stroke:#000000;stroke-linecap:round;stroke-miterlimit:10;}
-			.st8{fill:#628B3D;stroke:#000000;stroke-linecap:round;stroke-miterlimit:10;}
-			.st9{fill:none;stroke:#010101;stroke-miterlimit:10;}
-			.st10{font-family:'Arial-BoldMT';}
-			.st11{font-size:8px;}
+    .fil1 { fill:#9992229; }
+    .fil0 { fill:#CCCCCC; }
+	.st0{fill:#A9A3A1;}
+	.st1{fill:#628B3D;}
+	.st2{fill:#FECC89;}
+	.st3{fill:#FFFFFF;}
+	.st4{clip-path:url(#SVGID_2_);}
+	.st5{fill:none;stroke:#010101;stroke-linecap:round;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st7{fill:none;stroke:#000000;stroke-linecap:round;stroke-miterlimit:10;}
+	.st8{fill:#628B3D;stroke:#000000;stroke-linecap:round;stroke-miterlimit:10;}
+	.st9{fill:none;stroke:#010101;stroke-miterlimit:10;}
+	.st10{font-family:'Arial-BoldMT';}
+	.st11{font-size:8px;}
 /* Add other .stX classes here */
