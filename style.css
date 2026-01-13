@@ -8,13 +8,13 @@ body {
   background-color: white;
 }
 
-
 svg path {
-  fill: #00394f;
-  stroke: #eee;
-  stroke-width: 0.25;
-  transition: fill 0.4s;
-  cursor: pointer;
+    fill: #00394f;
+    stroke: #eee;
+    stroke-width: 0.25;
+    transition: fill 0.4s;
+    cursor: pointer;
+	
 }
 
 svg path:hover {
@@ -39,9 +39,6 @@ svg path:hover {
   cursor: pointer;
 }
 
-.st1 { fill:#628B3D; }
-.st2 { fill:#FECC89; }
-.st3 { fill:#FFFFFF; }
             .fil1 { fill:#9992229; }
             .fil0 { fill:#CCCCCC; }
 			.st0{fill:#A9A3A1;}
