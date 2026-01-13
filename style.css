@@ -1,6 +1,6 @@
 * {
-  margin: 100;
-  padding: 300;
+  margin: 0;
+  padding: 0;
   position: center;
 }
 
@@ -8,6 +8,17 @@ body {
   background-color: white;
 }
 
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/"
+     viewBox="0 0 1000 1600"
+     width="500" height="800">
+height="800"
+    style="shape-rendering:geometricPrecision;
+           text-rendering:geometricPrecision;
+           image-rendering:optimizeQuality;
+           fill-rule:evenodd;
+           clip-rule:evenodd">
 
 svg path {
   fill: #00394f;
@@ -24,6 +35,7 @@ svg path:hover {
 .available { fill: #2ecc71 !important; }
 .sold { fill: #e74c3c !important; }
 .reserved { fill: #f1c40f !important; }
+
 
 .st0 {
   fill: #3498db;
