@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: pink;
 }
 	.title {
       text-align: center;
@@ -40,7 +40,7 @@ body {
 }
 
 .st0:hover {
-  fill: #089e00;
+  fill: #424542;
   stroke: #424542;
   cursor: pointer;
 }
