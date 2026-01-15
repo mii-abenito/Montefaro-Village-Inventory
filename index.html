@@ -35,21 +35,39 @@ window.addEventListener('DOMContentLoaded', () => {
     .then(data => {
       window.units = data;
 
+      // Counters
+      let availableCount = 0;
+      let soldCount = 0;
+      let reservedCount = 0;
+
       for (const id in data) {
         const unit = data[id];
         const shape = document.getElementById(id);
 
-        if (shape) {
-          // Apply status class
-          const status = (unit["Unit Status"] || '').toLowerCase();
-          if (status === "available") shape.classList.add("available");
-          if (status === "sold") shape.classList.add("sold");
-          if (status === "reserved") shape.classList.add("reserved");
+        const status = (unit["Unit Status"] || '').toLowerCase();
+        if (status === "available") {
+          availableCount++;
+          if (shape) shape.classList.add("available");
+        }
+        if (status === "sold") {
+          soldCount++;
+          if (shape) shape.classList.add("sold");
+        }
+        if (status === "reserved") {
+          reservedCount++;
+          if (shape) shape.classList.add("reserved");
+        }
 
-          // Attach click
+        // Attach click
+        if (shape) {
           shape.addEventListener("click", () => showUnit(id));
         }
       }
+
+      // Update <h3> counters
+      document.querySelector('h3:nth-of-type(1)').textContent = `🟢 Available: ${availableCount}`;
+      document.querySelector('h3:nth-of-type(2)').textContent = `🔴 Sold: ${soldCount}`;
+      document.querySelector('h3:nth-of-type(3)').textContent = `🟡 Reserved: ${reservedCount}`;
     })
     .catch(err => console.error('Failed to load units.json:', err));
 
@@ -60,7 +78,6 @@ window.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    // tolerate some key-casing differences and missing fields
     const floor = u["Floor area"] ?? u["Floor Area"] ?? "N/A";
     const lot = u["Lot area"] ?? u["Lot Area"] ?? "N/A";
     const model = u["House Model"] ?? u["House model"] ?? "N/A";
@@ -68,18 +85,19 @@ window.addEventListener('DOMContentLoaded', () => {
     const amount = u["Amount"] ?? "N/A";
     const status = u["Unit Status"] ?? "N/A";
 
-    alert(
-`Unit: ${id}
-Floor area: ${floor}
-Lot area: ${lot}
-House Model: ${model}
-House type: ${houseType}
-Amount: ${amount}
-Status: ${status}`
-    );
+	    alert(
+	`Unit: ${id}
+	Floor area: ${floor}
+	Lot area: ${lot}
+	House Model: ${model}
+	House type: ${houseType}
+	Amount: ${amount}
+	Status: ${status}`
+	    );
   }
 });
 </script>
+
 
 		<polygon id="MF4031E"	polygon class="st0" points="23,130.3 52.3,127.3 53.3,136.6 51.5,136.6 52.6,148.5 32.3,150.3 31.6,141.6 24.4,142.4 						"/>
 		<polygon id="MF4031D"	polygon class="st0" points="26,159.5 55.2,156.5 56.2,165.7 54.5,165.7 55.5,177.7 35.3,179.5 34.6,170.8 27.3,171.6 						"/>
@@ -14367,6 +14385,7 @@ nz8/ffXdd3zk53/THz39/vvPP+iRPj/98Ic//j9+h7/08hd++tO//6d/+Mnf/H9zk/Bw
 </i:pgf>
 </svg>
 </body> </html>
+
 
 
 
