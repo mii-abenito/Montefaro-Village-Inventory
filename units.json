@@ -5,7 +5,7 @@
     "Lot area": "100 sqm",  
     "House Type": "Single Attached",
     "House Model": "ARIANA",
-    "TCP": "PHP ₱", 
+    "TCP": "PHP", 
 
     
   },
@@ -15,7 +15,7 @@
     "Lot area": "100 sqm",  
     "House Type": "Single Attached",
     "House Model": "ARIANA",
-    "TCP": "PHP ₱ ", 
+    "TCP": "PHP", 
   },
   "MF40325": { 
     "Unit Status": "Available",
@@ -23,7 +23,7 @@
     "Lot area": "100 sqm", 
     "House Type": "Single Attached",
     "House Model": "ARIANA",
-    "TCP": "PHP ₱", 
+    "TCP": "PHP", 
     
     },
   "MF40315": { 
@@ -32,7 +32,7 @@
     "Lot area": "100 sqm", 
     "House Type": "Single Attached",
     "House Model": "ARIANA",
-    "TCP": "PHP ₱",
+    "TCP": "PHP",
     },
   "MF40314": { 
     "Unit Status": "Sold",
@@ -40,11 +40,7 @@
     "Lot area": "100 sqm",  
     "House Type": "Single Attached",
     "House Model": "ARIANA",
-    "TCP": "PHP ₱", 
-    "Unit Status": "Sold",
+    "TCP": "PHP", 
   }
 
-
-
-  
 }
