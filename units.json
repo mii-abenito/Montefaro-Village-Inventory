@@ -1,46 +1,42 @@
 {
   "MF4031E": { 
     "Unit Status": "Sold",
-    "Floor area": "80 sqm", 
-    "Lot area": "100 sqm",  
+    "Floor area": "80 sqm",
+    "Lot area": "100 sqm",
     "House Type": "Single Attached",
     "House Model": "ARIANA",
-    "TCP": "PHP", 
-
-    
+    "TCP": "PHP"
   },
   "MF4031D": { 
     "Unit Status": "Available",
-    "Floor area": "80 sqm", 
-    "Lot area": "100 sqm",  
+    "Floor area": "80 sqm",
+    "Lot area": "100 sqm",
     "House Type": "Single Attached",
     "House Model": "ARIANA",
-    "TCP": "PHP", 
+    "TCP": "PHP"
   },
   "MF40325": { 
     "Unit Status": "Available",
-    "Floor area": "80 sqm", 
-    "Lot area": "100 sqm", 
+    "Floor area": "80 sqm",
+    "Lot area": "100 sqm",
     "House Type": "Single Attached",
     "House Model": "ARIANA",
-    "TCP": "PHP", 
-    
-    },
+    "TCP": "PHP"
+  },
   "MF40315": { 
     "Unit Status": "Reserved",
-    "Floor area": "80 sqm", 
-    "Lot area": "100 sqm", 
+    "Floor area": "80 sqm",
+    "Lot area": "100 sqm",
     "House Type": "Single Attached",
     "House Model": "ARIANA",
-    "TCP": "PHP",
-    },
+    "TCP": "PHP"
+  },
   "MF40314": { 
     "Unit Status": "Sold",
-    "Floor area": "80 sqm", 
-    "Lot area": "100 sqm",  
+    "Floor area": "80 sqm",
+    "Lot area": "100 sqm",
     "House Type": "Single Attached",
     "House Model": "ARIANA",
-    "TCP": "PHP", 
+    "TCP": "PHP"
   }
-
 }
