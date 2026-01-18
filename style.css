@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: orange;
+  background-color: blue;
 }
 	.title {
       text-align: center;
@@ -26,9 +26,9 @@ body {
       color: #555;
     }
 
-.available { fill: #2ecc71 !important; }
-.sold      { fill: #e74c3c !important; }
-.reserved  { fill: #f1c40f !important; }
+.available { fill: #2ecc71 !important; } /* green */
+.sold      { fill: #e74c3c !important; } /* red */
+.reserved  { fill: #f1c40f !important; } /* yellow */
 
 /* Your other .stX classes go here */
 /* st1-RL */
@@ -45,7 +45,7 @@ body {
   cursor: pointer;
 }
 
-    .fil1 { fill:#9992229; }
+    .fil1 { fill:#999229; }
     .fil0 { fill:#CCCCCC; }
 	.st0{fill:#dbd7d9;}
 	.st1{fill:#628B3D;}
