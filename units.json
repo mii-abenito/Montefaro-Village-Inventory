@@ -1,13 +1,15 @@
 {
-  "MF4-031E": { 
-    "Floor area": "80 sqm", 
-    "Lot area": "100 sqm",  
-    "House Type": "Single Attached",
+ "MF4-031E": {
+    "Status": "SOLD",
+    "Ticket Status": "3A - Sold (RevOps)",
+    "Unit ID": "MF4-031E",
+    "Product Type": "Pre-selling",
+    "Lot Area": "100 sqm",
+    "Floor Area": "80 sqm",
     "House Model": "ARIANA",
-    "Amount": "PHP ₱1234567.00", 
-    "Unit Status": "Sold",
-    "HubSpot Link": "https://app-na2.hubspot.com/contacts/19579605/record/0-420/378025598986?eschref=%2Fcontacts%2F19579605%2Fobjects%2F0-420%2Fviews%2F340650359%2Flist%3Fquery%3D031E"
-  },
+    "House Type": "Single Attached",
+    "Total Contract Price": "PHP ₱6,636,434.00"
+}
   "MF4031D": { 
     "Floor area": "80 sqm", 
     "Lot area": "100 sqm",  
