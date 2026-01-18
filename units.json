@@ -9,8 +9,7 @@
   "House Model": "ARIANA",
   "House Type": "Single Attached",
   "Total Contract Price": "PHP ₱6,636,434.00"
-  },
- 
+ },
   "MF4-031D": {
   "Unit Status": "SOLD",
   "Ticket Status": "3A - Sold (RevOps)",
@@ -20,8 +19,7 @@
   "House Model": "ARIANA",
   "House Type": "Single Attached",
   "Total Contract Price": "PHP ₱6,636,434.00"
-  },
- 
+ },
   "MF4-031C": {
   "Unit Status": "SOLD",
   "Ticket Status": "3A - Sold (RevOps)",
@@ -31,7 +29,7 @@
   "House Model": "ARIANA",
   "House Type": "Single Attached",
   "Total Contract Price": "PHP ₱6,990,722.00"
-},
+ },
   "MF4-031D": {
   "Unit Status": "SOLD",
   "Ticket Status": "3A - Sold (RevOps)",
@@ -82,8 +80,7 @@
   "House Type": "Single Attached",
   "Total Contract Price": ""
 },
-
-"MF4-0326": {
+  "MF4-0326": {
   "Unit Status": "SOLD",
   "Ticket Status": "5B - Transferred to Buyer",
   "Product Type": "Pre-selling",
@@ -93,7 +90,6 @@
   "House Type": "Single Attached",
   "Total Contract Price": ""
 },
-
   "MF4-0325": {
   "Unit Status": "SOLD",
   "Ticket Status": "3A - Sold (RevOps)",
@@ -124,8 +120,6 @@
   "House Type": "Single Attached",
   "Total Contract Price": ""
 },
-
-
 "MF4-0322": {
   "Unit Status": "SOLD",
   "Ticket Status": "5B - Transferred to Buyer",
@@ -136,7 +130,6 @@
   "House Type": "Single Attached",
   "Total Contract Price": ""
 },
-
   "MF4-0321": {
   "Unit Status": "SOLD",
   "Ticket Status": "5B - Transferred to Buyer",
