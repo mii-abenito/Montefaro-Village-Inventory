@@ -1,6 +1,6 @@
 {
  
- "MF4-031E": {
+ "MF4031E": {
     "Status": "SOLD",
     "Ticket Status": "3A - Sold (RevOps)",
     "Product Type": "Pre-selling",
@@ -10,7 +10,7 @@
     "House Type": "Single Attached",
     "Total Contract Price": "PHP ₱6,636,434.00"
 },
-  "MF4-031D": { 
+  "MF4031D": { 
     "Status": "AVAILABLE",
     "Ticket Status": "3A - Sold (RevOps)",
     "Product Type": "Pre-selling",
@@ -20,7 +20,7 @@
     "House Type": "Single Attached",
     "Total Contract Price": "PHP ₱6,636,434.00"
 },
-  "MF4-0325": { 
+  "MF40325": { 
     "Status": "RESERVED",
     "Ticket Status": "3A - Sold (RevOps)",
     "Product Type": "Pre-selling",
@@ -30,7 +30,7 @@
     "House Type": "Single Attached",
     "Total Contract Price": "PHP ₱6,636,434.00"
 },
-  "MF4-0315": { 
+  "MF40315": { 
     "Status": "SOLD",
     "Ticket Status": "3A - Sold (RevOps)",
     "Product Type": "Pre-selling",
@@ -40,7 +40,7 @@
     "House Type": "Single Attached",
     "Total Contract Price": "PHP ₱6,636,434.00"
 },
-  "MF4-0314": { 
+  "MF40314": { 
     "Status": "SOLD",
     "Ticket Status": "3A - Sold (RevOps)",
     "Product Type": "Pre-selling",
