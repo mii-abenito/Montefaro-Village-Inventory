@@ -61,21 +61,26 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 
     // tolerate some key-casing differences and missing fields
-    const floor = u["Floor area"] ?? u["Floor Area"] ?? "N/A";
-    const lot = u["Lot area"] ?? u["Lot Area"] ?? "N/A";
+   	const status = u["Unit Status"] ?? "N/A";
+	const ticketStatus = u["Ticket Status"] ?? "N/A";
+	const productType = u["Product Type"] ?? "N/A";
+	const lot = u["Lot area"] ?? u["Lot Area"] ?? "N/A";
+	const floor = u["Floor area"] ?? u["Floor Area"] ?? "N/A";
     const model = u["House Model"] ?? u["House model"] ?? "N/A";
     const houseType = u["House type"] ?? u["House Type"] ?? "N/A";
     const tcp = u["Total Contract Price"] ?? "N/A";
-    const status = u["Unit Status"] ?? "N/A";
+   
 
     alert(
 `Unit: ${id}
-Floor area: ${floor}
-Lot area: ${lot}
+Status: ${status}
+Ticket Status: ${ticketStatus}
+Product Type: ${productType}
+Lot Area: ${lot}
+Floor Area: ${floor}
 House Model: ${model}
-House type: ${houseType}
-Total Contract Price: ${tcp}
-Status: ${status}`
+House Type: ${houseType}
+Total Contract Price: ${tcp}`
     );
   }
 });
@@ -14367,6 +14372,7 @@ nz8/ffXdd3zk53/THz39/vvPP+iRPj/98Ic//j9+h7/08hd++tO//6d/+Mnf/H9zk/Bw
 </i:pgf>
 </svg>
 </body> </html>
+
 
 
 
