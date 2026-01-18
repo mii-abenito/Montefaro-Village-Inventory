@@ -120,7 +120,7 @@
   "House Type": "Single Attached",
   "Total Contract Price": ""
 },
-"MF4-0322": {
+  "MF4-0322": {
   "Unit Status": "SOLD",
   "Ticket Status": "5B - Transferred to Buyer",
   "Product Type": "Pre-selling",
@@ -140,7 +140,6 @@
   "House Type": "Single Attached",
   "Total Contract Price": ""
 },
-
   "MF4-0320": {
   "Unit Status": "SOLD",
   "Ticket Status": "3A - Sold (RevOps)",
@@ -151,7 +150,7 @@
   "House Type": "Single Attached",
   "Total Contract Price": "7,334,059.00"
 },
-"MF4-0318": {
+  "MF4-0318": {
   "Unit Status": "SOLD",
   "Ticket Status": "3A - Sold (RevOps)",
   "Product Type": "Pre-selling",
@@ -198,7 +197,7 @@
 
 
   
-"MF4-0702": {
+  "MF4-0702": {
   "Unit Status": "SOLD",
   "Ticket Status": "5B - Transferred to Buyer",
   "Product Type": "Pre-selling",
@@ -208,8 +207,6 @@
   "House Type": "Single Attached",
   "Total Contract Price": ""
 },
-
-
   "MF4-0710": {
   "Unit Status": "SOLD",
   "Ticket Status": "5B - Transferred to Buyer",
