@@ -461,6 +461,26 @@
   "House Type": "Single Attached",
   "Total Contract Price": ""
 },
+"MF4-0331": {
+  "Unit Status": "SOLD",
+  "Ticket Status": "3A - Sold (RevOps)",
+  "Product Type": "Pre-selling",
+  "Lot Area": "175 sqm",
+  "Floor Area": "80 sqm",
+  "House Model": "ARIANA",
+  "House Type": "Single Attached",
+  "Total Contract Price": "8,167,369.00"
+},
+"MF4-0332": {
+  "Unit Status": "AVAILABLE",
+  "Ticket Status": "1B - Open For Sale (PBD)",
+  "Product Type": "Pre-selling",
+  "Lot Area": "116 sqm",
+  "Floor Area": "80 sqm",
+  "House Model": "ARIANA",
+  "House Type": "Single Attached",
+  "Total Contract Price": "8,101,293.27"
+},
 "MF4-0333": {
   "Unit Status": "SOLD",
   "Ticket Status": "5B - Transferred to Buyer",
@@ -561,8 +581,177 @@
   "House Type": "Single Attached",
   "Total Contract Price": ""
 },
+"MF4-0501": {
+  "Unit Status": "SOLD",
+  "Ticket Status": "5B - Transferred to Buyer",
+  "Product Type": "Pre-selling",
+  "Lot Area": "115 sqm",
+  "Floor Area": "80 sqm",
+  "House Model": "ARIANA",
+  "House Type": "Single Attached",
+  "Total Contract Price": ""
+},
+  "MF4-0502": {
+  "Unit Status": "SOLD",
+  "Ticket Status": "5B - Transferred to Buyer",
+  "Product Type": "Pre-selling",
+  "Lot Area": "115 sqm",
+  "Floor Area": "80 sqm",
+  "House Model": "ARIANA",
+  "House Type": "Single Attached",
+  "Total Contract Price": ""
+},
+  "MF4-0503": {
+  "Unit Status": "SOLD",
+  "Ticket Status": "3A - Sold (RevOps)",
+  "Product Type": "Pre-selling",
+  "Lot Area": "107 sqm",
+  "Floor Area": "80 sqm",
+  "House Model": "ARIANA",
+  "House Type": "Single Attached",
+  "Total Contract Price": ""
+},
+"MF4-0504": {
+  "Unit Status": "SOLD",
+  "Ticket Status": "3A - Sold (RevOps)",
+  "Product Type": "Pre-selling",
+  "Lot Area": "107 sqm",
+  "Floor Area": "80 sqm",
+  "House Model": "ARIANA",
+  "House Type": "Single Attached",
+  "Total Contract Price": ""
+},
+  "MF4-0505": {
+  "Unit Status": "SOLD",
+  "Ticket Status": "3A - Sold (RevOps)",
+  "Product Type": "Pre-selling",
+  "Lot Area": "107 sqm",
+  "Floor Area": "80 sqm",
+  "House Model": "ARIANA",
+  "House Type": "Single Attached",
+  "Total Contract Price": ""
+},
+"MF4-0506": {
+  "Unit Status": "SOLD",
+  "Ticket Status": "3A - Sold (RevOps)",
+  "Product Type": "Pre-selling",
+  "Lot Area": "107 sqm",
+  "Floor Area": "80 sqm",
+  "House Model": "ARIANA",
+  "House Type": "Single Attached",
+  "Total Contract Price": "6,266,717.00"
+},
+  "MF4-0507": {
+  "Unit Status": "SOLD",
+  "Ticket Status": "3A - Sold (RevOps)",
+  "Product Type": "Pre-selling",
+  "Lot Area": "107 sqm",
+  "Floor Area": "80 sqm",
+  "House Model": "ARIANA",
+  "House Type": "Single Attached",
+  "Total Contract Price": "6,514,112.00"
+},
+  "MF4-0508": {
+  "Unit Status": "SOLD",
+  "Ticket Status": "3A - Sold (RevOps)",
+  "Product Type": "Pre-selling",
+  "Lot Area": "107 sqm",
+  "Floor Area": "80 sqm",
+  "House Model": "ARIANA",
+  "House Type": "Single Attached",
+  "Total Contract Price": ""
+},
+  "MF4-0509": {
+  "Unit Status": "SOLD",
+  "Ticket Status": "3A - Sold (RevOps)",
+  "Product Type": "Pre-selling",
+  "Lot Area": "107 sqm",
+  "Floor Area": "80 sqm",
+  "House Model": "ARIANA",
+  "House Type": "Single Attached",
+  "Total Contract Price": ""
+},
+  "MF4-0511": {
+  "Unit Status": "SOLD",
+  "Ticket Status": "3A - Sold (RevOps)",
+  "Product Type": "Pre-selling",
+  "Lot Area": "107 sqm",
+  "Floor Area": "80 sqm",
+  "House Model": "ARIANA",
+  "House Type": "Single Attached",
+  "Total Contract Price": "7,158,440.00"
+},
 
-
+  "MF4-0512": {
+  "Unit Status": "SOLD",
+  "Ticket Status": "3A - Sold (RevOps)",
+  "Product Type": "Pre-selling",
+  "Lot Area": "107 sqm",
+  "Floor Area": "80 sqm",
+  "House Model": "ARIANA",
+  "House Type": "Single Attached",
+  "Total Contract Price": ""
+},
+  "MF4-0513": {
+  "Unit Status": "SOLD",
+  "Ticket Status": "3A - Sold (RevOps)",
+  "Product Type": "Pre-selling",
+  "Lot Area": "107 sqm",
+  "Floor Area": "80 sqm",
+  "House Model": "ARIANA",
+  "House Type": "Single Attached",
+  "Total Contract Price": "6,293,828.00"
+},
+  "MF4-0514": {
+  "Unit Status": "SOLD",
+  "Ticket Status": "3A - Sold (RevOps)",
+  "Product Type": "Pre-selling",
+  "Lot Area": "107 sqm",
+  "Floor Area": "80 sqm",
+  "House Model": "ARIANA",
+  "House Type": "Single Attached",
+  "Total Contract Price": "6,266,717.00"
+},
+"MF4-0515": {
+  "Unit Status": "SOLD",
+  "Ticket Status": "3A - Sold (RevOps)",
+  "Product Type": "Pre-selling",
+  "Lot Area": "107 sqm",
+  "Floor Area": "80 sqm",
+  "House Model": "ARIANA",
+  "House Type": "Single Attached",
+  "Total Contract Price": "6,293,828.00"
+},
+  "MF4-0516": {
+  "Unit Status": "SOLD",
+  "Ticket Status": "3A - Sold (RevOps)",
+  "Product Type": "Pre-selling",
+  "Lot Area": "107 sqm",
+  "Floor Area": "80 sqm",
+  "House Model": "ARIANA",
+  "House Type": "Single Attached",
+  "Total Contract Price": "6,266,717.00"
+},
+"MF4-0517": {
+  "Unit Status": "SOLD",
+  "Ticket Status": "3A - Sold (RevOps)",
+  "Product Type": "Pre-selling",
+  "Lot Area": "115 sqm",
+  "Floor Area": "80 sqm",
+  "House Model": "ARIANA",
+  "House Type": "Single Attached",
+  "Total Contract Price": ""
+},
+"MF4-0518": {
+  "Unit Status": "SOLD",
+  "Ticket Status": "5B - Transferred to Buyer",
+  "Product Type": "Pre-selling",
+  "Lot Area": "115 sqm",
+  "Floor Area": "80 sqm",
+  "House Model": "ARIANA",
+  "House Type": "Single Attached",
+  "Total Contract Price": ""
+},
 
 
 
