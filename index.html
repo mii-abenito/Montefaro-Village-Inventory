@@ -62,18 +62,18 @@
 		
 		    // tolerate some key-casing differences and missing fields
 		   	const status = u["Unit Status"] ?? "N/A";
-			const ticketStatus = u["Ticket Status"] ?? "N/A";
 			const productType = u["Product Type"] ?? "N/A";
 			const lot = u["Lot area"] ?? u["Lot Area"] ?? "N/A";
 			const floor = u["Floor area"] ?? u["Floor Area"] ?? "N/A";
 		    const model = u["House Model"] ?? u["House model"] ?? "N/A";
 		    const houseType = u["House type"] ?? u["House Type"] ?? "N/A";
 		    const tcp = u["Total Contract Price"] ?? "N/A";
-		     
+			const displayName = u["Display Name"] ?? id;
+			const cleanId = id.replace("https://MontefaroVillage.github.io/", "");
+
 			  alert(
 		    `Unit: ${id} 
-• Status: ${status} 
-• Ticket Status: ${ticketStatus} 
+• Status: ${status}  
 • Product Type: ${productType} 
 • Lot Area: ${lot} 
 • Floor Area: ${floor} 
@@ -14410,6 +14410,7 @@
 		
 		
 		
+
 
 
 
