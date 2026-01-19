@@ -784,7 +784,7 @@
   "Total Contract Price": "7,240,079.00"
 },
 "MF4-0403": {
-    "Status": "SOLD",
+    "Unit Status": "SOLD",
     "Ticket Status": "3A - Sold (RevOps)",
     "Unit ID": "MF4-0403",
     "Product Type": "Pre-selling",
@@ -794,7 +794,7 @@
     "House Type": "",
     "Total Contract Price": "PHP ₱6,293,828.00"
 },
-  "MF4-0404": {
+"MF4-0404": {
   "Unit Status": "SOLD",
   "Ticket Status": "3A - Sold (RevOps)",
   "Product Type": "Pre-selling",
